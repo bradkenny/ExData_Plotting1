@@ -47,7 +47,7 @@ legend("topright",lty=1,legend = c("Sub_metering_1","Sub_metering_2",
 #fourth plot of series
     #Playing with with()
 with(elecSub,
-     plot(Global_reactive_power,xlab="datetime",type="l")
+     plot(dateTime,Global_reactive_power,xlab="datetime",type="l")
      );
 
 #Turn off png device
